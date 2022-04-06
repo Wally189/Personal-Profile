@@ -117,13 +117,14 @@ h6 {
     font-style: normal;
     font-weight: bolder;
     text-align: center;
-    background-image: url("./Images/Tiber.jpg");
+    text-overflow: clip;
+    background-color: white;
     background-repeat: no-repeat;
-    background-size: 2100px;
+    background-size: 1500px;
     background-position: center;
-    color: white;
+    color: darkgoldenrod;
     border-radius: 100px;
-    border: solid rgb(6, 214, 200) 10px;
+    border: solid rgb(6, 214, 200) 20px;
     opacity: 0.9;
     margin: 1%;
 }
