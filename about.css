@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-color: darkgrey;
+      font-family: Calibri; 
+      color: white;
+  }
+
+header {
+    background-color: #06303A;
+    padding: 3%;
+  }
+  
+  nav li {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+  }
+
+img {
+  max-width: 40%;
+  opacity: 0.80;
+  background-color: rgb(6, 214, 200);
+  border-radius: 10px;
+  padding: 0.5%;
+  margin: 1%; 
+}
+
+h1 {
+      font-size: 50px;
+  }
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.first-txt-name {
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.second-txt-from {
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.third-txt-job {
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.fourth-txt-careerhistory {
+    position: absolute;
+    top: 750px;
+    left: 700px;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.fifth-txt-hobbies {
+    position: absolute;
+    top: 1050px;
+    left: 100px;
+    font-weight:lighter;
+    text-align: left;
+    padding: 20px;
+}
+
+.snowcap {
+    font-style: italic;
+    color: white;
+    font-size: small;
+    position: absolute;
+    top: 750px;
+    left: 100px;
+}
+
+.thefuture {
+    position: absolute;
+    top: 1550px;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    background-image: url("./Images/Tiber.jpg");
+    background-repeat: no-repeat;
+    background-size: 2100px;
+    background-position: center;
+    color: white;
+    border-radius: 100px;
+    border: solid rgb(6, 214, 200) 10px;
+    opacity: 0.9;
+    margin: 1%;
+}
+
+a[href*='index.html'], a[href*='about.html'], a[href*='contact.html']{
+    color: White;
+}
+
+a:hover {
+    color: darkgoldenrod;
+  }
+
+  footer {
+    text-align: right;
+    top: 2300px;
+    position: absolute;
+    right: 0px;
+    font-weight: bolder;
+    background-color: #06303A;
+    width: 100%;
+    padding: 5%;
+    color: white;
+  }
+
+
+ 
+
